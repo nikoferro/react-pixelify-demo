@@ -1,0 +1,27 @@
+table {
+  width: 50%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+table pre {
+  margin: 0px;
+}
+table tr td,
+table tr th {
+  padding: 5px;
+}
+.code {
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px;
+  color: #333;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: 1px dashed;
+}
